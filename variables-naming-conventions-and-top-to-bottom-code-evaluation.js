@@ -24,9 +24,11 @@ Things to reflect on:
   
 */
 
-let a = "Alice";
-let b = 5;
-let c = 20;
-let d = a + " bought " + b + " items for $" + c + ".";
+let customerName = "Alice"; 
+let itemQuantity = 5;
+let totalCost = 20;
+let storeName = "Costco";
+let purchaseDate = "July 30th";
+let purchaseSummary = customerName + " bought " + itemQuantity + " items from " + storeName + " for $" + totalCost + " on " + purchaseDate + ".";
 
-console.log(d);
+console.log(purchaseSummary);
